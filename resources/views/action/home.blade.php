@@ -4,10 +4,6 @@
         background-color: #F9F6F6;
     }
     
-    .brand-logo {
-        margin: 1%;
-    }
-    
     #row {
         margin: 2em;
     }

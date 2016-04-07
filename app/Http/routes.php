@@ -19,6 +19,10 @@ Route::get('/login', 'Controller@loginsso');
 Route::get('/home', 'Controller@loginredirect');
 Route::get('/logout', 'Controller@logout');
 
+Route::get('/pengajuanijin', function () {
+    return view('action/pengajuanijin/ijin');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
