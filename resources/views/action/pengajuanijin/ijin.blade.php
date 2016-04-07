@@ -41,12 +41,11 @@
 <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 @endsection
 
-@section('script2')
-<script>$(".button-collapse").sideNav();</script>
+@section('script')
+<script>
+    $(".button-collapse").sideNav();
+</script>
 @endsection
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-
 
 
 

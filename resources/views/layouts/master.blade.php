@@ -8,7 +8,9 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="materialize/css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    @yield('script1') @yield('styles')
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    @yield('styles')
     <style>
         .brand-logo {
             margin: 1%;
@@ -19,10 +21,7 @@
 <body>
     @yield('navbar')
     <div class="main">@yield('content')</div>
-    @yield('script2')
-    <!--    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    @yield('script')
 </body>
 
 </html>

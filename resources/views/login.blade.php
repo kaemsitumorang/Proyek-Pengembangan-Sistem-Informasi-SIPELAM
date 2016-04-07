@@ -1,4 +1,6 @@
-@extends('layouts.master') @section('styles')
+@extends('layouts.master') 
+
+@section('styles')
 <style>
     .nav-wrapper {
         background-color: white;
@@ -60,7 +62,9 @@
         padding: 0;
     }
 </style>
-@endsection @section('content')
+@endsection 
+
+@section('content')
 <div class="hide-on-med-and-down">
     <div class="leftHalf container">
         <div class="slider fullscreen">
@@ -132,7 +136,9 @@
         </div>
     </div>
 </div>
-@endsection @section('script2')
+@endsection 
+
+@section('script')
 <script>
     $(document).ready(function () {
         $('.slider').slider({
@@ -141,5 +147,3 @@
     });
 </script>
 @endsection
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
