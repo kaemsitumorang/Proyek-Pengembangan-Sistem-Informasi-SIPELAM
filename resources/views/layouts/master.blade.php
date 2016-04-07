@@ -12,9 +12,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     @yield('styles')
     <style>
-        .brand-logo {
-            margin: 1%;
-        }
+    .brand-logo {
+        margin: 1%;
+    }
+    
+    nav .button-collapse i {
+        font-size: 2rem;
+        margin-left: .5em;
+    }
     </style>
 </head>
 
