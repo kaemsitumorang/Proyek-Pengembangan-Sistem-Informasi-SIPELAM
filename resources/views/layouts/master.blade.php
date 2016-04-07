@@ -6,7 +6,9 @@
     <meta charset="utf-8">
 
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="materialize/css/materialize.css"> @yield('script1') @yield('styles')
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    @yield('script1') @yield('styles')
     <style>
         .brand-logo {
             margin: 1%;
