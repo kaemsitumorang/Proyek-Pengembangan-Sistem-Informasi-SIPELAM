@@ -3,7 +3,6 @@
 @extends('elements.element')
 @section('isi-side-nav')
 <li><a href="#"><span class="pink-text text-darken-4">Buat Pengajuan Ijin</span></a></li>
-<li><a href="#"><span class="pink-text text-darken-4">Buat Pengajuan Ijin</span></a></li>
 <li><a href="#"><span class="pink-text text-darken-4">SOP</span></a></li>
 @endsection
 @section('isi-sidebar-in-content')
