@@ -21,13 +21,38 @@
     .side-nav {
     background-color: #F9F6F6;
     }
+    header, main, footer {
+    padding-left: 240px;
+    }
+    
+    @media only screen and (max-width: 992px) {
+        header,
+        main,
+        footer {
+            padding-left: 0;
+        }
+    }
+    .side-nav #div-li {
+        margin-top: 5em;
+    }
+    .main {
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    h4{
+        font-weight: 200;
+    }
+        
     </style>
 </head>
 
 <body>
     @yield('navbar')
     @yield('sidebar-in-content')
-    <main>@yield('content')</main>
+    <main>
+        @yield('content')
+    </main>
     @yield('script')
 </body>
 
