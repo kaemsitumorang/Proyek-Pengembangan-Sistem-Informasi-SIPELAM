@@ -66,6 +66,7 @@
         $('.slider').slider({
             full_width: true
         });
+        $(".button-collapse").sideNav();
     });
     </script>
     @endsection

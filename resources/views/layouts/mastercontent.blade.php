@@ -1,5 +1,3 @@
-<!DOCTYPE HTML>
-
 <html lang="en">
 
 <head>
@@ -28,6 +26,7 @@
 
 <body>
     @yield('navbar')
+    @yield('sidebar-in-content')
     <main>@yield('content')</main>
     @yield('script')
 </body>

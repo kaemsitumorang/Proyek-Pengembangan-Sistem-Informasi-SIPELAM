@@ -17,3 +17,13 @@
 </nav>
 </header>
 @endsection
+
+
+@section('sidebar-in-content')
+<ul id="slide-out" class="side-nav fixed">
+    <div id="div-li">
+       @yield('isi-sidebar-in-content')
+    </div>
+</ul>
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+@endsection
