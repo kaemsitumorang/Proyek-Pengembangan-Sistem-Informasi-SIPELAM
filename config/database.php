@@ -54,10 +54,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
+            'host'      => env('DB_HOST', 'sql6.freesqldatabase.com'),
+            'database'  => env('DB_DATABASE', 'sql6114273'),
+            'username'  => env('DB_USERNAME', 'sql6114273'),
+            'password'  => env('DB_PASSWORD', 'ApRCB1LZLg'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
