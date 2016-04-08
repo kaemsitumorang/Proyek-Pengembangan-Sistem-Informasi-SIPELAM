@@ -13,6 +13,7 @@
 
 @section('content')
 <div class="main">
+   <h1>CHECK BRANCH</h1>
     <div class="row">
         <div class="col s12 l8">
             <h4 class="grey-text text-darken-1">Pengajuan Ijin Kegiatan</h4>
